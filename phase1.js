@@ -33,7 +33,7 @@ function preload ()
     // backgrounds
     this.load.image('field_calm', 'field_calm.jpg');
     this.load.image('field_blazed', 'field_blazed.jpg');
-    this.load.image('wizard', 'pic.wizard.png');
+    //this.load.image('wizard', 'pic.wizard.png');
 
     // unicorn
     //*/
