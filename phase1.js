@@ -31,8 +31,9 @@ var game = new Phaser.Game(config);
 function preload ()
 {
     // backgrounds
-    this.load.image('field_calm', 'assets/backgrounds/field_calm.jpg');
-    this.load.image('field_blazed', 'assets/backgrounds/field_blazed.jpg');
+    this.load.image('field_calm', 'field_calm.jpg');
+    this.load.image('field_blazed', 'field_blazed.jpg');
+    this.load.image('wizard', 'pic.wizard.png');
 
     // unicorn
     //*/
@@ -42,6 +43,7 @@ function create ()
 {
     this.add.image(400, 300, 'field_calm');
     //this.add.image(0, 0, 'unicorn', 0);
+    this.add.image(500, 400, 'wizard');
 }
 
 function update ()
