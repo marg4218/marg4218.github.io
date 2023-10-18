@@ -43,7 +43,7 @@ function create ()
 {
     this.add.image(400, 300, 'field_calm');
     //this.add.image(0, 0, 'unicorn', 0);
-    this.add.image(0, 0, 'wizard');
+    //this.add.image(0, 0, 'wizard');
     this.add.image(300,300, 'lich');
 }
 
